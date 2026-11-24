@@ -11,7 +11,8 @@ namespace CharityManagementApp
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            // Стартуем с формы логина: вход сотрудника или публичный интерфейс (гость)
+            Application.Run(new LoginForm());
         }
     }
 }
